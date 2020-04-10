@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "818336849684",
+    "firebase_url": "https://tugasque-smansara.firebaseio.com",
+    "project_id": "tugasque-smansara",
+    "storage_bucket": "tugasque-smansara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818336849684:android:c7978df4baac7bda",
+        "android_client_info": {
+          "package_name": "com.smansara.tugasque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818336849684-tf764uio1arofoh2pr49t7235cghvlvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smansara.tugasque",
+            "certificate_hash": "5853558d9c9fbb6fd458d9ce30904ee81d2f1e6a"
+          }
+        },
+        {
+          "client_id": "818336849684-lo2u2ck6qu404pd9u62j0q8hom0fek1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr6p5a-qm5mJ2vq8fWKbbf9c6OWa9dLMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818336849684-lo2u2ck6qu404pd9u62j0q8hom0fek1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

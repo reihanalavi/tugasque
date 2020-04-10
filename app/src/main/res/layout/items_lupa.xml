@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Ahmad Reihan Alavi"
+        android:maxLines="1"
+        app:layout_constraintRight_toLeftOf="@id/textView_items_ago"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/circle_items_daftarlupa"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/rubik_light"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_items_namalupa"/>
+
+    <TextView
+        android:id="@+id/textView_items_nomorlupa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_light"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/circle_items_daftarlupa"
+        app:layout_constraintTop_toBottomOf="@id/textView_items_namalupa"
+        tools:text="085877126566" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="07/1/2020 17:34:31"
+        app:layout_constraintTop_toBottomOf="@id/textView_items_nomorlupa"
+        app:layout_constraintLeft_toRightOf="@id/circle_items_daftarlupa"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/rubik_light"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_items_createdlupa"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Baru saja"
+        app:layout_constraintTop_toTopOf="@id/textView_items_namalupa"
+        app:layout_constraintBottom_toBottomOf="@id/textView_items_namalupa"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/rubik_light"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/textView_items_agolupa"/>
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="0dp"
+        tools:background="@color/colorRed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/circle_items_daftarlupa"/>
+
+</android.support.constraint.ConstraintLayout>

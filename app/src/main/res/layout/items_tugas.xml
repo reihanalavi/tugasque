@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Substansi PPT Aison Ansoid Aonaosd ANasda"
+        android:maxLines="1"
+        app:layout_constraintRight_toLeftOf="@id/textView_items_ago"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/circle_items_jenis"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/rubik_light"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_items_nama"/>
+
+    <TextView
+        android:id="@+id/textView_items_mapel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_light"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/circle_items_jenis"
+        app:layout_constraintTop_toBottomOf="@id/textView_items_nama"
+        tools:text="Pendidikan Agama &amp; Budi Pekerti asdasd ljas d lkajdsh as " />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Senin, 4 Maret 2019"
+        app:layout_constraintTop_toBottomOf="@id/textView_items_mapel"
+        app:layout_constraintLeft_toRightOf="@id/circle_items_jenis"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/rubik_light"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_items_deadline"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Baru saja"
+        app:layout_constraintTop_toTopOf="@id/textView_items_nama"
+        app:layout_constraintBottom_toBottomOf="@id/textView_items_nama"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/rubik_light"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/textView_items_ago"/>
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="0dp"
+        tools:background="@color/colorRed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/circle_items_jenis"/>
+
+</android.support.constraint.ConstraintLayout>

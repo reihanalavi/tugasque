@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_kelaskepsek"
+        android:icon="@drawable/tugas_drawable"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="@string/kelas" />
+    <item
+        android:id="@+id/nav_akunkepsek"
+        android:icon="@drawable/akun_drawable"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="@string/akun" />
+    <item
+        android:id="@+id/nav_tugaskepsek"
+        android:icon="@drawable/guru_drawable"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="@string/guru" />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_person"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="@string/entry_data" />
+
+    <item
+        android:id="@+id/nav_forgot"
+        android:icon="@drawable/ic_error_outline_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="@string/lupa_password_nav" />
+
+    <item
+        android:id="@+id/nav_custom"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="@string/kirim_notif" />
+
+</menu>

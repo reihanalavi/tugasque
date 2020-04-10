@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="all"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/rubik_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="bold"
+        android:id="@+id/items_notif_topics"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Baru saja"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="@font/rubik_light"
+        app:layout_constraintTop_toTopOf="@id/items_notif_topics"
+        app:layout_constraintBottom_toBottomOf="@id/items_notif_topics"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/items_notif_ago"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Segera perbarui Tugasque untuk mendapatkan pembaruan fitur dan layanan"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/rubik_light"
+        app:layout_constraintTop_toBottomOf="@id/items_notif_topics"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/items_notif_pesan"/>
+</android.support.constraint.ConstraintLayout>
